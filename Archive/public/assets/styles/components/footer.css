@@ -1,0 +1,85 @@
+.scrollbtn {
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+.scrollbtn button {
+    padding: 1rem;
+    background: var(--red-color);
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+}
+.scrollbtn button:hover,
+.scrollbtn button:focus-within {
+    background: var(--red-hover-color);
+}
+footer {
+    padding: 3rem;
+    background: linear-gradient(var(--main-color), var(--main-color));
+    min-height: 50vh;
+    padding-bottom: 7rem;
+}
+.footer-content {
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+.footer-component {
+    margin-top: 2rem;
+}
+.footer-component:not(:last-of-type) {
+    margin-right: 2rem;
+}
+.footer-component img {
+    width: 200px;
+}
+.footer-component > h4 {
+    color: #fff;
+    width: 280px;
+}
+.footer-component .head {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+.footer-component .links {
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+.footer-component .links .link {
+    color: #f2f2f2;
+    margin-bottom: 0.8rem;
+    font-size: 16px;
+}
+.footer-component h3 {
+    font-size: 15px;
+    color: #f2f2f2;
+    margin-bottom: 0.8rem;
+}
+.footer-component .small-headline {
+    color: gold;
+    margin-bottom: 0.2rem;
+}
+.social-icons .icon {
+    margin-right: 1.3rem;
+    background: rgba(0, 0, 0, 0.6);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.social-icons .icon .fa {
+    color: #f2f2f2;
+    font-size: 20px;
+}

@@ -1,0 +1,351 @@
+.home__page {
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../images/gallery/bg1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home__page.page__bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../images/gallery/bg2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.welcome__banner {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    padding: 2rem;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%)
+}
+.welcome__banner button {
+    padding: 1rem 2.5rem;
+    font-size: 18px;
+    width: fit-content;
+    border-radius: 55px;
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    border: none;
+    outline: none;
+}
+.welcome__banner button:hover,
+.welcome__banner button:focus-within {
+    background: #d3d3d3;
+}
+.welcome__banner h1 {
+    font-size: 75px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.welcome__banner h1 span {
+    color: gold;
+    font-weight: bold;
+}
+.welcome__banner h2 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+.call-to-action {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+.video-controller {
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+.left {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.left,
+.right {
+    flex: 1;
+    -ms-flex: 1;
+}
+.left .title h1 {
+    font-size: 35px;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+.left .title h1 span {
+    color: var(--gray-color);
+    font-weight: bold;
+}
+.right img {
+    width: 100%;
+    border: 6px solid var(--gray-color);
+    border-radius: 10px;
+}
+#vision {
+    background: linear-gradient(rgba(131, 49, 193, 0.8), rgba(131, 49, 193, 0.8)), url('../../images/SHFConcertNov2020/DSC_0525.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 20vh;
+    padding: 5rem 3rem;
+}
+.controller {
+    background: #fff;
+    border-radius: 5px;
+    padding: 5rem 3rem;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    padding-top: 3.5rem;
+}
+.controller div .head h1 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 28px;
+    color: gold;
+}
+.mission {
+    flex: 2;
+    -ms-flex: 2;
+}
+.controller > div {
+    margin-top: 1.5rem;
+}
+.vision {
+    flex: 1;
+    -ms-flex: 1;
+    margin-right: 2rem;
+}
+.controller div .content h3 {
+    font-weight: bold;
+}
+.controller div .content h3,
+.controller div .content h4 {
+    color: teal;
+}
+
+.className span {
+    font-size: 60px;
+}
+.call-to-action .btn {
+    background: #FF0075;
+    color: #fff;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.call-to-action .btn:hover,
+.call-to-action .btn:focus-within {
+    background: #e22c81;
+}
+.call-to-action button {
+    margin-top: 1rem;
+}
+
+.content-body .image img {
+    width: 100%;
+}
+.content-body .image {
+    margin-right: 2rem;
+    position: relative;
+}
+.content-body .image::after {
+    content: '';
+    background: #ccc;
+    width: 100%;
+    height: 100%;
+    left: 30%;
+    top: 20%;
+}
+.content-body .image,
+.content-body .actual {
+    flex: 1;
+    -ms-flex: 1;
+}
+section > .title h1 {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.card {
+    padding: 1.5rem;
+    box-shadow: 0 0 10px 2px #f0eded;
+    margin-top: 2rem;
+    border-radius: 10px;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    border-left: 5px solid var(--main-color);
+}
+.card .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d3d3d3;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+.card .icon .fa {
+    color: var(--main-color);
+    font-size: 26px;
+}
+.card .text h1 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.wrapper {
+    background: #d3d3d3;
+}
+.actual .card .text h4 {
+    color: rgba(0, 0, 0, 0.8);
+}
+.wrapper .left-wrapper,
+.wrapper .right-wrapper {
+    flex: 1;
+    -ms-flex: 1;
+}
+.wrapper .right-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.wrapper .left-wrapper {
+    padding: 4rem 3rem;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    align-items: center;
+}
+.wrapper .left-wrapper .head h1 {
+    font-size: 30px;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.wrapper .left-wrapper .head h1::before {
+    content: '';
+    background: rgb(165, 58, 8);
+    width: 200px;
+    position: absolute;
+    height: 4px;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+}
+
+.wrapper .left-wrapper .sub h2 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.wrapper .left-wrapper button {
+    padding: 1rem 3rem;
+    border-radius: 55px;
+    background: var(--red-color);
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+.wrapper .left-wrapper button:hover,
+.wrapper .left-wrapper button:focus-within {
+    background: var(--red-hover-color);
+}
+.buy {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 2rem;
+    margin-top: 4rem;
+    background: var(--main-color);
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+@media screen and (max-width: 1100px) {
+    .welcome__banner h1 {
+        font-size: 62px;
+    }
+    .className span {
+        font-size: 55px;
+    }
+}
+@media screen and (max-width: 880px) {
+    .wrapper {
+        flex-direction: column;
+        -ms-flex-direction: column;
+    }
+}
+@media screen and (max-width: 850px) {
+    .welcome__banner h1 {
+        font-size: 52px;
+    }
+    #vision {
+        padding: 5rem 2rem;
+    }
+    .controller {
+        padding: 5rem 2rem;
+        padding-top: 3.5rem;
+    }
+    .className span {
+        font-size: 45px;
+    }
+    .content-body {
+        flex-direction: column;
+        -ms-flex-direction: column;
+    }
+}
+@media screen and (max-width: 765px) {
+    .video-controller {
+        flex-direction: column;
+        -ms-flex-direction: column;
+    }
+}
+@media screen and (max-width: 730px) {
+    .welcome__banner h1 {
+        font-size: 42px;
+    }
+    .welcome__banner {
+        padding: 1rem;
+    }
+    .controller {
+        flex-direction: column;
+        -ms-flex-direction: column;
+    }
+    #vision {
+        padding: 5rem 1rem;
+    }
+    .className span {
+        font-size: 40px;
+    }
+    .wrapper .left-wrapper {
+        padding: 4rem 2rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .call-to-action {
+        flex-direction: column;
+        -ms-flex-direction: column;
+    }
+    .call-to-action .btn {
+        margin-right: 0;
+    }
+    .wrapper .left-wrapper {
+        padding: 4rem 1.5rem;
+    }
+}

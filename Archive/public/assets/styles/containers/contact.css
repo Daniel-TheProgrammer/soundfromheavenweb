@@ -1,0 +1,210 @@
+.contact__catch {
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/gallery/bg3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    width: 100%;
+}
+.contact__page {
+    width: 100%;
+}
+.headline h1 {
+    font-size: 75px;
+    color: gold;
+    margin-top: 8rem;
+}
+.subheadline h2 {
+    color: #fff;
+    width: 550px;
+    font-weight: 100;
+}
+.animated-arrow {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color);
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.animated-arrow .fa {
+    color: #fff;
+    font-size: 22px;
+    animation: move 0.2s linear infinite alternate-reverse;
+    -webkit-animation: move 0.2s linear infinite alternate-reverse;
+    -moz-animation: move 0.2s linear infinite alternate-reverse;
+    -o-animation: move 0.2s linear infinite alternate-reverse;
+}
+@keyframes move {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 0.8rem;
+    }
+}
+@-webkit-keyframes move {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 0.8rem;
+    }
+}
+@-o-keyframes move {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 0.8rem;
+    }
+}
+@-moz-keyframes move {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 0.8rem;
+    }
+}
+.main__area {
+    padding: 4rem 3rem;
+}
+.main__area .left {
+    flex: 1;
+    -ms-flex: 1;
+    background: #d3d3d3;
+    padding: 3rem;
+    margin-right: 1rem;
+}
+.main__area .right {
+    flex: 2;
+    -ms-flex: 2;
+    padding: 2rem;
+}
+.main__area .left .head h1 {
+    margin-bottom: 3rem;
+    position: relative;
+    color: var(--main-color);
+    width: fit-content;
+}
+.main__area .left .head h1::before {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 98%;
+    height: 4px;
+    background: var(--main-color);
+    bottom: -2px;
+}
+.main__area .left div {
+    margin-bottom: 1rem;
+}
+.main__area .left div h2 {
+    color: var(--main-color);
+}
+.appointment h2 {
+    margin-bottom: 1rem;
+}
+.subunit {
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    justify-content: space-between;
+}
+.subunit h4:first-of-type {
+    margin-right: 1.5rem;
+}
+.form-control {
+    margin-bottom: 1.5rem;
+}
+.form-control input,
+.form-control textarea {
+    padding: 0.7rem 1.5rem;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+.form-control input {
+    border: none;
+    padding: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--main-color);
+}
+.right h1 {
+    margin-bottom: 1rem;
+}
+form button {
+    padding: 0.8rem 4rem;
+    background: var(--red-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 55px;
+}
+form button:hover,
+form button:focus-within {
+    background: var(--red-hover-color);
+}
+.email h3 {
+    display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+@media screen and (max-width: 900px) {
+    .main__area {
+        padding: 4rem 2rem;
+    }
+    .headline h1 {
+        font-size: 65px;
+    }
+    .main__area .left {
+        padding: 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main__area {
+        flex-direction: column;
+        -ms-flex-direction: column;
+    }
+    .main__area .left {
+        margin-right: 0rem;
+    }
+    .headline h1 {
+        font-size: 55px;
+    }
+    .main__area .left {
+        padding: 3rem 1.5rem;
+    }
+    .contact__catch {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main__area {
+        padding: 4rem 1rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .subheadline h2 {
+        width: 100%;
+    }
+    .headline h1 {
+        font-size: 45px;
+    }
+    .main__area .left {
+        padding: 3rem 1rem;
+    }
+}
